@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatPhotoApp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    
+    <h1>CatPhotoApp</h1>
+
+    <!-- Cat Photos Section -->
+    <section>
+        <h2>Cat Photos</h2>
+        <p>See more <a href="#">cat photos</a> in our gallery.</p>
+        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Cute kitten" class="cat-photo">
+    </section>
+
+    <!-- Cat Lists Section -->
+    <section>
+        <h2>Cat Lists</h2>
+        <h3>Things cats love:</h3>
+        <ul>
+            <li>cat nip</li>
+            <li>laser pointers</li>
+            <li>lasagna</li>
+        </ul>
+        <img src="lasagna.jpg" alt="Cat eating lasagna" class="cat-food">
+
+        <h3>Top 3 things cats hate:</h3>
+        <ol>
+            <li>flea treatment</li>
+            <li>thunder</li>
+            <li>other cats</li>
+        </ol>
+        <img src="cats.jpg" alt="Cute kittens" class="cat-friends">
+    </section>
+
+    <!-- Cat Form Section -->
+    <section>
+        <h2>Cat Form</h2>
+        <form action="#">
+            <label>Is your cat an indoor or outdoor cat?</label><br>
+            <div class="ekline">
+                <input type="radio" id="indoor" name="cat" value="indoor">
+                <label for="indoor">Indoor</label><br>
+                <input type="radio" id="outdoor" name="cat" value="outdoor">
+                <label for="outdoor">Outdoor</label><br><br>
+            </div>
+
+            <label>What's your cat's personality?</label><br>
+
+            <div class="ekline">
+
+                <input type="checkbox" id="loving" name="personality" value="loving">
+                <label for="loving">Loving</label><br>
+                <input type="checkbox" id="lazy" name="personality" value="lazy">
+                <label for="lazy">Lazy</label><br>
+                <input type="checkbox" id="energetic" name="personality" value="energetic">
+                <label for="energetic">Energetic</label><br><br>
+            </div>
+            
+            <input type="text" placeholder="Cat photo url">
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>No Copyright - <a href="#">Chetan Chauhan</a></p>
+    </footer>
+</body>
+</html>
